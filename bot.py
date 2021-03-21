@@ -27,6 +27,7 @@ import re
 from math import ceil
 import telethon
 from pymongo import MongoClient
+from main_startup.config_var import Config
 from pymongo.errors import ConnectionFailure
 from telethon import Button, custom, events, functions
 from dB import get_user_limit, add_user_to_db, get_all_users, dl_all_users, dl_one_user, add_hits_to_db, rm_all_hits, all_hit, rm_hit, hit_exists
